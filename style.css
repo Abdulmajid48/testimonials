@@ -1,0 +1,172 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body{
+    background-color: hsl(210, 46%, 95%);
+    font-family:'Barlow Semi Condensed', sans-serif;
+    font-size: 13px;
+    height: 100vh;
+}
+
+
+@media (min-width: 376px) and (max-width:1440px) {
+.container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0.8fr 0.8fr;
+        gap: 10px;
+        width: 70%;
+        margin: auto;
+    }
+
+    .div1, .div5{
+        grid-column: span 2;
+    }
+   .div3{
+      grid-row: span 2;
+   }
+}
+
+@media (max-width: 375px) {
+        .container{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 0.7fr 0.3fr 0.4fr 0.6fr 0.3fr;
+            gap: 10px;
+            width: 70%;
+            margin: auto;
+        }
+
+     div{
+        grid-column: span 2;
+     }
+      .div5{
+        grid-area:4;
+      }
+
+}
+
+.dip{
+    border-radius: 10px;
+}
+
+.div1{
+    position: relative;
+  
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(263, 55%, 52%);
+}
+
+
+img {
+    width: 35px;
+    float: left;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 11px;
+
+}
+
+.imgdiv{
+    display: inline-block;
+}
+.first-paragraph{
+   margin-bottom: 2px;
+}
+.verified1{
+    color:hsla(0, 0%, 100%, 50%); 
+    font-weight: 500;
+    margin-top: 2px;
+    padding: 0;
+}
+  
+.border{
+    border: solid 2px hsla(0, 0%, 100%, 50%);
+}
+
+
+  
+
+
+.third-paragraph{
+   font-size: 21px;
+   margin-top: 3px;
+   margin-bottom: -3px;
+}
+
+.fourth-paragraph1{
+color: hsla(0, 0%, 100%, 70%);
+font-size: 13px;
+line-height: 1.5;
+
+}
+
+
+.div2{
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(0, 0%, 100%);
+}
+
+
+.div3{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(219, 29%, 14%);
+}
+
+.verified3 {
+    color: hsla(219, 29%, 14%, 50%);
+    font-weight: 500;
+    margin-top: 2px;
+    padding: 0;
+}
+
+.fourth-paragraph2 {
+    color: hsla(219, 29%, 14%, 70%);
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.div4{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(219, 29%, 14%);
+}
+.div5{
+    background-color: hsl(219, 29%, 14%);
+    color: hsl(0, 0%, 100%);
+}
+
+
+
+
+.svg{
+    position:absolute;
+    right: 70px;
+    z-index: 0;
+   
+   
+ 
+   
+}
+
+.sub{
+    width: 80%;
+    margin: auto;
+    
+}
+
+.sub1{
+    z-index: 1;
+    position: relative;
+}
+
+
+
+
+
+
