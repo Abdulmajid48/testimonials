@@ -1,6 +1,6 @@
 # Frontend Mentor - Testimonials grid section solution
 
-This is a solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -25,7 +25,7 @@ Date: 11-09-2023
 ### Links
 
 - Solution URL: [Github](https://github.com/Abdulmajid48/testimonials)
-- Live Site URL: [Vercel](https://vercel.com/abdulmajid48/testimonials)
+- Live Site URL: [Github](https://abdulmajid48.github.io/testimonials/)
 
 ### Built with
 
@@ -35,30 +35,29 @@ Date: 11-09-2023
 - Google fonts
 - Media Query
 
-
 ### What I learned
 
 Using grid layout has been a valuable learning experience for me. One of the key takeaways is the power of visual organization. Grid layouts provide a structured framework for arranging content, whether it's for web design, or even personal organization. This structure helps information become more digestible and accessible, making it easier for users to navigate and understand. I've realized that a well-designed grid can greatly enhance the user experience by creating a sense of order and consistency.
 
 ```css
-@media (min-width: 376px) and (max-width:1440px) {
-.container {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 0.8fr 0.8fr;
-        gap: 10px;
-        width: 70%;
-        margin: auto;
-    }
+@media (min-width: 376px) and (max-width: 1440px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.8fr 0.8fr;
+    gap: 10px;
+    width: 70%;
+    margin: auto;
+  }
 
-    .div1, .div5{
-        grid-column: span 2;
-    }
-   .div3{
-      grid-row: span 2;
-   }
+  .div1,
+  .div5 {
+    grid-column: span 2;
+  }
+  .div3 {
+    grid-row: span 2;
+  }
 }
-
 ```
 
 ### Useful resources
